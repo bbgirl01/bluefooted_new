@@ -1,0 +1,11 @@
+{
+  "/api": {
+    "target": "http://192.168.10.35:8080",
+    "pathRewrite": {
+      "^/api": "/pc"
+    },
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "secure": false
+  }
+}

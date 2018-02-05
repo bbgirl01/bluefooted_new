@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body,
+  {
+  height: 100%;
+  a,
+  li {
+    outline: none;
+  }
+  .ant-menu-submenu>.ant-menu {
+    background-color: #24364B;
+    color: white;
+  }
+  .ant-menu-submenu-title,
+  .ant-menu-inline .ant-menu-submenu-title {
+    color: white;
+  }
+  .ant-layout-header {
+    padding: 0 50px 0 0;
+  }
+  .table-info {
+    margin: 0;
+    padding: 0;
+  }
+  .table-info {
+    font-size: 14px;
+    background-color: white;
+    table {
+      width: 100%;
+      text-align: center;
+      span {
+        display: inline-block;
+        padding: 8px 0;
+      }
+      thead {
+        tr {
+          background-color: #F2F3F6;
+          td span {
+            color: #888888;
+          }
+        }
+      }
+      tbody {
+        tr:nth-child(even) {
+          background-color: #F5F9FC;
+          td span {
+            color: #333333;
+          }
+          td.opt span {
+            color: #3d70e4;
+          }
+        }
+        td.opt span {
+          cursor: pointer;
+          color: #3d70e4;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+}
